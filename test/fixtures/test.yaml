@@ -173,7 +173,6 @@ properties:
 
 required:
 - meta
-- database
 - performer
 - page_id
 - page_title
