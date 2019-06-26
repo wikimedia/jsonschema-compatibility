@@ -26,12 +26,16 @@
     "node": ">=6"
   },
   "homepage": "https://github.com/wikimedia/jsonschema-compatibility#readme",
+  "dependencies": {
+    "fast-json-stable-stringify": "^2.0.0"
+  },
   "devDependencies": {
     "eslint-config-wikimedia": "^0.10.0",
     "eslint-plugin-jsdoc": "^4.0.1",
     "eslint-plugin-json": "^1.3.2",
     "extend": "^3.0.2",
     "istanbul": "^0.4.5",
+    "js-yaml": "^3.12.1",
     "mocha": "^5.2.0",
     "mocha-lcov-reporter": "^1.3.0"
   }
